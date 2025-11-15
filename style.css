@@ -1,0 +1,136 @@
+/* & This will import the desired font */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+/* & This will style the font for the entire webpage */
+* {
+    font-family: "Poiret One";
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    /* font-style: italic; */
+}
+
+/* & This will style the default appearance of the entire webpage */
+body {
+    background-color: #393a60;
+    /* color: #f5edef; */
+    color: #f4f5f1;
+    /* color: #ffffff; */
+    /* ~ Remove the default browse spacing */
+    padding: 0;
+    margin: 0;
+}
+
+/* & The following will style the elements in the header section of the webpage */
+.header-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+
+/* ~ Create a flex container */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ~ This will style the <hr> element -> the horizontal line or dividing line which will seperate the sections on the webpage */
+.section-divider {
+    width: 95%;
+    height: 10px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%) no-repeat;
+}
+
+/* & The following will style the elements in the main sectionn of the webpage */
+/* ~ This will style the horizontal line or dividing line that will follow the title of each section */
+h2 {
+    text-align: center;
+}
+
+.title-divider {
+    width: 35%;
+    height: 10px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%) no-repeat;
+}
+
+/* ~ This will style the list marker for the <li> element */
+ul > li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+li::before {
+    content: "🌸 ";
+    color: #d17;
+    font-size: 1.5em;
+}
+
+/* & This will style the elements in the "index.html" file */
+/* ~ This will style the main container for the <div> elements */
+#outside-wrapper {
+    width: 90%;
+    background: #540a4b99;
+    text-align: center;
+    /* ~ Adding a margin: auto to center the content */
+    margin: auto;
+}
+
+/* ~ This will style the bridge underpass image */
+#top-img {
+    width: 13em;
+    height: 13em;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/* ~ This will remove the <li> element marker from the <div> child elements within each <li> parent element */
+#post-list > li {
+    list-style-type: none;
+}
+
+/* ~ This will align the test of the <div> child elements in the <li> parent elementd */
+li > div {
+    text-align: center;
+}
+
+.post-wrapper {
+    width: 90%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* ~ This will style the Library Image */
+.post-img {
+    width: 95%;
+    border: 8px solid #d5ffc0;
+    padding: 10px;
+}
+
+/* ~ This will style all the div elements */
+div {
+    width: 90%;
+    border: 5px solid #fffaf0;
+    padding: 10px;
+}
+
+/* & This will style the footer section of the webpage */
+footer {
+    padding-bottom: 30px;
+}
+
+.footer-img {
+    width: 115px;
+    height: 115px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+

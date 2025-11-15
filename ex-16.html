@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Spaced Out: The Margin Box</title>
+    <!-- & Link to the .css file -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ This will style te space near the top of the webpage that will make it easier to understand and navigate
+    -->
+    <header class="flex-container">
+        <img
+            src="img/a-inuyasha-embraced-by-cherry-blossoms.png"
+            alt="Inuyasha embraced by cherry blosoms"
+            class="header-img"
+        >
+        <h1>🌸 Spaced Out 🌸</h1>
+        <img
+            src="img/b-sesshōmaru-among-falling-cherry-blossoms.png"
+            alt="Sesshōmaru among the falling cherry blossoms"
+            class="header-img"
+        >
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of the webpage
+        ~ i.e. A section discussing The Margin Box
+        -->
+        <section>
+            <h2>🍵 The Margin Box 🌸</h2>
+            <hr class="title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    The Margin Box is the outermost layer of an element's box.
+                </li>
+                <li>
+                    The layer that surrounds an element's border is what ultimately seperates elements from one another on the page
+                </li>
+                <li>
+                    <img
+                        src="img/c-the-margin-box.png"
+                        alt="The Margin Box"
+                        width="400"
+                    >
+                </li>
+                <li>
+                    The margin box can be set with the "margin" property. The following syntax will add 40 pixels to all sides of an element:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/e-margin-syntax.png"
+                                alt="Margin Syntax"
+                                width="230"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    The following syntax is how to add margin to a single side of an element:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/f-margin-syntax-single-side-of-element.png"
+                                alt="Margin Syntax for single side of an element"
+                                width="240"
+                            >
+                        </li>
+                        <li>
+                            Absolute or relative units can be added to:
+                                <ul>
+                                    <li>
+                                        "margin-top": The top side of an element
+                                    </li>
+                                    <li>
+                                        "margin-right": The right side of an element
+                                    </li>
+                                    <li>
+                                        "margin-bottom": The bottom side of an element
+                                    </li>
+                                    <li>
+                                        "margin-left": The left side of an element
+                                    </li>
+                                </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Like the "padding" and "border" properties, "margin" is a shorthand for each side of the element:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/g-margin-shorthand-syntax.png"
+                                alt="Margin Shorthand Syntax"
+                                width="285"
+                            >
+                        </li>
+                        <li>
+                            Unlike the other boxes, the margin box has its own width and height that is not counted towards the element's size.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <br>
+        <hr class="section-divider">
+        <br>
+
+        <!-- & This section will discuss centering content -->
+        <section>
+            <h2>🌸 Centering Content 🍵</h2>
+            <hr class="title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    Elements can be horizontally centered with the "margin" property, using "auto".
+                </li>
+                <li>
+                    It is best to set a "width" property to the elements you wish to center:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/h-margin-syntax-center-content.png"
+                                alt="Margin Syntax to center content"
+                                width="295"
+                            >
+                        </li>
+                        <li>
+                            The image rendered from the syntax:
+                            <ul>
+                                <li>
+                                    <img
+                                        src="img/i-rendered-centered-content.png"
+                                        alt="Maring Syntex for Centered Content"
+                                        width=""
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to the extended resources
+            ~ In the <a> element -> use the following for the "href" attribute
+                ~ href = "/privacy"
+            ~ Also use the "target" attribute to open the link in a new web broswer tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> this is the symbol for copyright
+    -->
+    <footer class="flex-container">
+        <img
+            src="img/d-maiden-walks-through-the-bamboo-forest.png"
+            alt="Maiden walks through the bamboo forest"
+            class="footer-img"
+        >
+        <p>&copy; 2025 EtariaL33. All rights reserved.</p>
+        <img
+            src="img/d-maiden-walks-through-the-bamboo-forest.png"
+            alt="Maiden walks through the bamboo forest"
+            class="footer-img"
+        >
+    </footer>
+</body>
+</html>
