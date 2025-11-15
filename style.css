@@ -49,11 +49,11 @@ h1 {
 }
 
 /* & The following will style the elements in the main sectionn of the webpage */
-/* ~ This will style the horizontal line or dividing line that will follow the title of each section */
 h2 {
     text-align: center;
 }
 
+/* ~ This will style the horizontal line or dividing line that will follow the title of each section */
 .title-divider {
     width: 35%;
     height: 10px;
